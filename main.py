@@ -2,7 +2,7 @@ from random import*
 from modules.core.core import*
 def main():
     boxs = [
-        1,2,3,4,5,6,7,8,9
+        i + 1 for i in range (10)
     ]
     # boxs = [
     #     'O','X','O',
