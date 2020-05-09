@@ -12,8 +12,6 @@ def main():
     core = Core(boxs)
     core.draw()
     
-    empty = 1;
-    
     while True:
         check_bot = 0
         # YOU PLAY
