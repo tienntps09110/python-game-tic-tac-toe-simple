@@ -57,10 +57,12 @@ class Core:
         if type(value) == int:
             return True
         return False
+    
     def checkYouBot(box):
         if Core.isInt(box):
             return False
         return True
+    
     def checkYouBotPoint(boxs):
         map_boxs = map(Core.checkYouBot, boxs)
         check_count = 0
